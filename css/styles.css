@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+.top{
+ background-image: url("https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+ background-size: cover;
+
+ height: 550px;
+}
+
+.topcont{
+ background-color: rgba(0, 0, 0, 0.5);
+ z-index: auto;
+ color: white;
+ height: 550px;
+}
+nav {
+background-color: rgba(0, 0, 0, 0.7);
+
+}
+ul{
+  list-style-type: none; /* removes the bullets in ul */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+li {
+  /* display: inline; display and float are used to create horizontal navigation bars*/
+display: inline-block;
+
+
+}
+a {
+  display: block; /*makes the whole link area clickable*/
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 0.7em;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.mid {
+  text-align: center;
+  color: white;
+  padding-top: 9em;
+}
+.container {
+  padding-top: 2em;
+}
+#img1 {
+  border-bottom: 2px solid red;
+}
+#img2 {
+  border-bottom: 2px solid red;
+}
+#img3 {
+  border-bottom: 2px solid red;
+}
+.row {
+  text-align: center;
+}
+.row h1 {
+  font-size: 18px;
+  color: red;
+  padding-top: 1em;
+  font-family: 'Dancing Script', cursive;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-bottom: 2px;
+  padding-top:2px;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;
+}
+.card-body li{
+  display: block;
+}
+.card-header {
+  background-color: pink;
+}
+.card-footer {
+  background-color: pink;
+}
